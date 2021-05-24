@@ -3,6 +3,7 @@
 var menu = "close";
 
 function MenuMobile(){
+    var Nav = document.getElementById("navbar")
     var mobileNav = document.getElementById("mobileNav");
     var iconmenu = document.getElementById("menuIcon");
     var intestazione = document.getElementById("intestazione")
@@ -12,7 +13,7 @@ function MenuMobile(){
         intestazione.style.display = "none";
         sfondo1.style.display = "none";
         menu="open";
-        iconmenu.src = "img/Generale/IconaMenuChiudi.png";    
+        iconmenu.src = "img/Generale/Chiudi.png";    
     }
 
     else{
