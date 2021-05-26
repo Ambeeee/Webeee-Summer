@@ -28,7 +28,7 @@ function MenuMobile(){
 
 //Responsive News
 
-function MenuMobileNews(){
+function MenuMobileNGC(){
     var mobileNav = document.getElementById("mobileNav");
     var iconmenu = document.getElementById("menuIcon");
     var intestazione = document.getElementById("intestazione")
@@ -38,7 +38,7 @@ function MenuMobileNews(){
         intestazione.style.display = "none";
         sfondo1.style.display = "none";
         menu="open";
-        iconmenu.src = "../img/Generale/IconaMenuChiudi.png";    
+        iconmenu.src = "../../img/Generale/Chiudi.png";    
     }
 
     else{
@@ -46,7 +46,7 @@ function MenuMobileNews(){
         intestazione.style.display = "block";
         sfondo1.style.display = "flex";
         menu = "close"
-        iconmenu.src = "../img/Generale/IconaMenu1.png" 
+        iconmenu.src = "../../img/Generale/IconaMenu1.png" 
     }
 }
 
@@ -63,31 +63,5 @@ function NewsMobile(){
     else{
         ModsMobile.style.display = "none";
         menu = "close";
-    }
-}
-
-//Pres Mobile
-function MenuMobilePres(){
-    var mobileNav = document.getElementById("mobileNav");
-    var iconmenu = document.getElementById("menuIcon");
-    var intestazione = document.getElementById("intestazione")
-    var sfondo1 = document.getElementById("sfondo1")
-    var intro = document.getElementById("introPresM")
-    if(menu == "close"){
-        mobileNav.style.display = "flex";
-        intestazione.style.display = "none";
-        sfondo1.style.display = "none";
-        intro.style.display = "none";
-        menu="open";
-        iconmenu.src = "../../img/Generale/IconaMenuChiudi.png";    
-    }
-
-    else{
-        mobileNav.style.display = "none";
-        intestazione.style.display = "block";
-        sfondo1.style.display = "flex";
-        intro.style.display = "flex";
-        menu = "close"
-        iconmenu.src = "../../img/Generale/IconaMenu1.png" 
     }
 }

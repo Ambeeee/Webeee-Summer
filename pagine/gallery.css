@@ -96,7 +96,7 @@ body{
     margin-top: 15%;
     width: 100%;
     height: 100%;
-    background-color: var(--bluelectric);
+    background-color: var(--water);
     display: none;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,7 @@ body{
     width: 130px;
     height: 40px;
     background-color: var(--bluelectric);
-    color: white;
+    color: var(--coral);
     font-size: 35px;
     border-radius: 20px;
     margin: 40px;
@@ -200,7 +200,7 @@ body{
 }
 
 .titleSezione{
-    width: 30%;
+    width: 28%;
     background-color: black;
     color: var(--white);
     font-family: 'Permanent Marker', cursive;
@@ -292,6 +292,9 @@ body{
 /*RESPONSIVE*/
 
 @media only screen and (max-width:800px) {
+    .titleSezione{
+        width: 40;
+    }
     #tutteMods{
         flex-direction: column;
     }
