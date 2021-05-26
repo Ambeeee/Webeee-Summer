@@ -321,6 +321,9 @@ body{
         text-align: left;
         display: flex;
     }
+    #paginaMods2{
+        height: auto;
+    }
     #tutteMods{
         flex-direction: column-reverse;
     }
