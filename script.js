@@ -46,7 +46,7 @@ function MenuMobileNGC(){
         intestazione.style.display = "block";
         sfondo1.style.display = "flex";
         menu = "close"
-        iconmenu.src = "../../img/Generale/IconaMenu1.png" 
+        iconmenu.src = "../img/Generale/IconaMenu1.png" 
     }
 }
 
