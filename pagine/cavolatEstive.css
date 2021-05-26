@@ -174,16 +174,6 @@ body{
     
 }
 
-#paginaMods2{
-    width:100%;
-    height:200vh;
-    background-color: var(--ambeee);
-    position: absolute;
-    top:90vh;
-    padding-top: 0px;
-    
-}
-
 #newsSezione{
     width: 100%;
     height:500px;
@@ -321,7 +311,7 @@ body{
         text-align: left;
         display: flex;
     }
-    #paginaMods2{
+    #paginaMods{
         height: auto;
     }
     #tutteMods{
