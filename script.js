@@ -38,7 +38,7 @@ function MenuMobileNGC(){
         intestazione.style.display = "none";
         sfondo1.style.display = "none";
         menu="open";
-        iconmenu.src = "../../img/Generale/Chiudi.png";    
+        iconmenu.src = "../img/Generale/Chiudi.png";    
     }
 
     else{
