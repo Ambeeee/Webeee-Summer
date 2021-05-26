@@ -16,6 +16,7 @@
     --ombrarancione: 0px 0px 20px 20px rgba(248, 123, 6, 0.4);
     --link: #24e02a;
     --link2: #ff3737;
+    --discord: #8b52c4;
 }
 
 body{
@@ -148,7 +149,7 @@ body{
 
 #webeeeT{
     height: auto;
-    width: auto;
+    width: 250%;
     position: relative;
     margin-top: 5px;
     left: 50px;
@@ -183,7 +184,7 @@ body{
         height: 100%;
         width: 160%;
         left: 0;
-        margin-left: 2%;
+        margin-left: -60%;
         margin-right: 0%;
     }
     #Summer{
@@ -209,7 +210,8 @@ body{
 
 #sezioneNews{
     width: auto;
-    display: block;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -218,7 +220,7 @@ body{
         position: relative;
         width: 50%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
@@ -230,8 +232,6 @@ body{
     height:300px;
     background-color: var(--white);
     border-radius: 25px;
-    margin:0 auto;
-    margin-left: 900px;
 }
 
 #lasaiTitolino{
@@ -315,9 +315,6 @@ body{
     height:300px;
     background-color: var(--white);
     border-radius: 25px;
-    margin:0 auto;
-    margin-right: 950px;
-    margin-top: 50px;
 }
 
 #soggettoTitolino{
