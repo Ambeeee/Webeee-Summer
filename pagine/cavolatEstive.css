@@ -340,6 +340,12 @@ body{
     #paginaMods{
         height: 500%;
     }
+    .titleSezione{
+        width: 40%;
+        margin-left: 27%;
+        text-align: center;
+        padding-right: 2%;
+    }
     #tutteMods{
         flex-direction: column-reverse;
     }
