@@ -208,19 +208,52 @@ body{
     
 }
 
+#intro{
+    display: flex;
+    flex-direction: row;
+}
+
+#introT{
+    margin: 0 5%;
+    font-size: 200%;
+    line-height: 300%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#tCavolate{
+    color: var(--tropical);
+    box-shadow: black 1%;
+}
+#tNews{
+    color: var(--coral);
+}
+#tGallery{
+    color: var(--water2);
+}
+
+#fotoFamiglia{
+    width: 45%;
+    margin-right: 5%;
+    border-radius: 10%;
+}
+
 #sezioneNews{
     width: auto;
     display: flex;
     flex-direction: row;
 }
 
+#IconaGrande{
+    width: 20%;
+    margin-left: 40%;
+}
 
 @media only screen and (max-width:800px) {
     #sezioneNews{
         position: relative;
         width: 50%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 
@@ -232,10 +265,11 @@ body{
     height:300px;
     background-color: var(--white);
     border-radius: 25px;
+    margin: 10%;
 }
 
 #lasaiTitolino{
-    width: 175px;
+    width: 170px;
     background-color: var(--link);
     color: var(--white);
     font-family: 'Permanent Marker', cursive;
@@ -244,7 +278,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: 125px;
-    padding-left: 5px;
+    padding-left: 10%;
     
 }
 
@@ -287,7 +321,7 @@ body{
     display: inline-flex;
     margin-right: 20px;
     color: var(--link);
-    background-color: var(--water2);
+    background-color: var(--discord);
     border-radius: 10px;
     align-items: center;
     justify-content: center;
@@ -315,11 +349,12 @@ body{
     height:300px;
     background-color: var(--white);
     border-radius: 25px;
+    margin: 10%;
 }
 
 #soggettoTitolino{
     width: 170px;
-    background-color: var(--coral);
+    background-color: var(--discord);
     color: var(--white);
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
@@ -327,7 +362,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: 125px;
-    padding-left: 12px;
+    padding-left: 20%;
 }
 
 
@@ -439,5 +474,8 @@ body{
 @media only screen and (max-width:800px) {
     #pagina{
         display: none;
+    }
+    #sezioneNews{
+        flex-direction: column;
     }
 }

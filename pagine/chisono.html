@@ -3,8 +3,8 @@
 <head>
     <link rel="stylesheet" href="chisono.css">
     <script src="../script.js"></script>
-    <title>Home - Webeee</title>
-    <link rel="shortcut icon" href="img/Generale/Icona.png" type="image/png">
+    <title>Chi siamo - Webeee</title>
+    <link rel="shortcut icon" href="../img/Generale/Icona.png" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,14 +28,16 @@
             <a href="../index.html">
                 <div class="menuTab">Home</div>
             </a>
-            <div class="menuTab">Chi sono</div>
-            <a href="pagine/gallery.html">
+            <a href="chisono.html">
+            <div class="menuTab">Chi siamo</div>
+            </a>
+            <a href="gallery.html">
                 <div class="menuTab">Gallery</div>
             </a>
-            <a href="pagine/news.html">
+            <a href="news.html">
                 <div class="menuTab">News</div>
             </a>
-            <a href="pagine/cavolatEstive.html">
+            <a href="cavolatEstive.html">
                 <div class="menuTab">Cavolate Estive</div>
             </a>
             <img src="img/Generale/IconaMenu1.png" id="menuIcon" onclick="MenuMobileNGC()">
@@ -44,11 +46,11 @@
     <!--NavbarMobile-->
     <div id="mobileNav">
         <div id="mobileMenu">
-            <a href="index.html"><div class="mobileTab">Home</div></a>
-            <div class="mobileTab">Chi sono</div>
-            <a href="pagine/gallery.html"><div class="mobileTab">Gallery</div></a>
-            <a href="pagine/news.html"><div class="mobileTab">News</div></a>
-            <a href="pagine/cavolatEstive.html"><div class="mobileTab">Cavolate Estive</div></a>
+            <a href="../index.html"><div class="mobileTab">Home</div></a>
+            <a href="chisono.html"><div class="mobileTab">Chi siamo</div></a>
+            <a href="gallery.html"><div class="mobileTab">Gallery</div></a>
+            <a href="news.html"><div class="mobileTab">News</div></a>
+            <a href="cavolatEstive.html"><div class="mobileTab">Cavolate Estive</div></a>
         </div>
     </div>
     
@@ -58,41 +60,48 @@
     </div>
     <!--Pagina-->
     <div id="pagina">
+        <div id="Intro">
+            <p id="introT">Benvenuto In questo fantastico sito web!!!
+                Scopri le <i id="tCavolate">Cavolate Estive,</i> tieniti aggiornato con le <i id="tNews">News</i>
+            o guarda le nostre foto nella <i id="tGallery">Gallery!</i> Già che ci sei, da un'occhiata
+            al nostro Server Discord, lo trovi qua sotto!</p>
+            <img id="fotoFamiglia" src="../img/Gallery/CAVOLATA.jpg"> 
+        </div>    
         <div id="sezioneNews">
             <!--La sai l'ultima?-->
             <div id="lasaisez">
-                <div id="lasaiTitolino">La sai l'ultima?</div>
+                <div id="lasaiTitolino">WhatsApp</div>
                 <div id="corpo">
                     <div id="lasaiInfo">
-                        <div id="lasaiT">Biologi sulle tracce di un Megalodonte. 
-                            "E' grande come il retino" spiega Davide Morbidelli.</div>
+                        <div id="lasaiT">Quelli di Porto d'Ascoli!!</div>
                         <a href="pagine/news/PresNews/tour.html">
-                            <div class="button">Vai alla notizia</div>
                         </a>
                     </div>
                     <div id="lasaiImg">
-                        <img src="img/SummerNews/Megalodonte.jpg" alt="copertina">
+                        <img src="../img/Gallery/WhatsApp.jpeg" alt="copertina">
                     </div>
                 </div>
             </div>
 
             <!--Cavolate Estive!-->
             <div id="soggettosez">
-                <div id="soggettoTitolino">Questa è bella!</div>
+                <div id="soggettoTitolino">Discord</div>
                 <div id="corpo2">
                     <div id="soggettoInfo">
-                        <div id="soggettoT">Scopri tutte le cavolate estive
-                             come... ehy! dov'è finito il fondale??</div>
-                        <a href="pagine/cavolatEstive.html">
-                            <div class="button">Vai alle cavolate</div>
+                        <div id="soggettoT">Entra nel
+                            <br> Porto D'ascoli Server!!
+                        </div>
+                        <a href="https://discord.gg/rDzVqf9rJU">
+                            <div class="button">Unisciti al Server</div>
                         </a>
                     </div>
                     <div id="soggettoImg">
-                        <img src="img/Gallery/CAVOLATA.jpg" alt="copertinaCavolate">
+                        <img src="../img/Gallery/Discord.jpg" alt="copertinaCavolate">
                     </div>
                 </div>
             </div>
         </div>
+        <img src="../img/Generale/Icona.png" id="IconaGrande">
     </div>
 </body>
 
