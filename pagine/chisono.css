@@ -277,9 +277,8 @@ body{
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-    margin-left: 125px;
+    margin-left: 25%;
     padding-left: 10%;
-    
 }
 
 
@@ -361,7 +360,7 @@ body{
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-    margin-left: 125px;
+    margin-left: 25%;
     padding-left: 20%;
 }
 
@@ -417,15 +416,46 @@ body{
         display: flex;
         flex-direction: column;
     }
+    #intro{
+        font-size: 30%;
+    }
     #sezioneNews{
         flex-direction: column;
         margin-top: 10%;
     }
-    #intro {
-        font-size: 50%;
+    #lasaisez{
+        width: 175%;
+    }
+    #lasaiTitolino{
+        margin: -4% 0% 4% 20%;
+        width: 45%;
+        margin-left: 20%;
+    }
+    #corpo{
+        flex-direction: column-reverse;
+    }
+    #lasaiT{
+        font-size: 150%;
+    }
+    #soggettosez{
+        width: 175%;
+    }
+    #soggettoTitolino{
+        margin: -4% 0% 4% 20%;
+        width: 45%;
+        margin-left: 20%;
+    }
+    #corpo2{
+        flex-direction: column-reverse;
+    }
+    #soggettoT{
+        font-size: 150%;
     }
     #fotoFamiglia{
-        height: 75%;
+        height: 50%;
+    }
+    .button{
+        margin-left: 10%;
     }
     #IconaGrande{
         width: 50%;
