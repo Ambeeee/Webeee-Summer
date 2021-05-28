@@ -418,6 +418,7 @@ body{
     }
     #intro{
         font-size: 30%;
+        flex-direction: column;
     }
     #sezioneNews{
         flex-direction: column;
@@ -437,6 +438,9 @@ body{
     #lasaiT{
         font-size: 150%;
     }
+    #lasaiImg{
+        width: 30%;
+    }
     #soggettosez{
         width: 175%;
     }
@@ -451,8 +455,12 @@ body{
     #soggettoT{
         font-size: 150%;
     }
+    #soggettoImg{
+        width: 30%;
+    }
     #fotoFamiglia{
         height: 50%;
+        margin: 4% 25%;
     }
     .button{
         margin-left: 10%;
