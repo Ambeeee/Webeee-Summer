@@ -441,6 +441,69 @@ body{
 
 @media only screen and (max-width:800px) {
     #pagina{
-        display: none;
+        display: flex;
+    }
+    /*News*/
+    #lasaisez{
+        margin-left: 4%;
+        width: 192%;
+        margin-bottom: 10%;
+    }
+    #lasaiTitolino{
+        width: 50%;
+        margin-top: -4%;
+        margin-left: 23%;
+        padding-left: 6%;
+    }
+    #corpo{
+        flex-direction: column-reverse;
+    }
+    #lasaiImg{
+        width: 29%;
+        margin-top: 2%;
+    }
+    #lasaiT{
+        font-size: 125%;
+        margin-bottom: 4%;
+    }
+    /*Cavolate*/
+    #soggettosez{
+        width: 192%;
+        margin-left: 4%;
+        margin-bottom: 10%;
+    }
+    #soggettoTitolino{
+        width: 50%;
+        margin-top: -4%;
+        margin-left: 23%;
+        padding-left: 6%;
+    }
+    #corpo2{
+        flex-direction: column-reverse;
+    }
+    #soggettoT{
+        font-size: 125%;
+    }
+    #soggettoImg{
+        margin-top: 2%;
+    }
+    /*Gallery*/
+    #gallerysez{
+        width: 192%;
+        margin-left: 4%;
+    }
+    #galleryTitolino{
+        width: 50%;
+        margin-top: -4%;
+        margin-left: 23%;
+        padding-left: 6%;
+    }
+    #corpo4{
+        flex-direction: column-reverse;
+    }
+    #galleryT{
+        margin-right: 4%;
+        margin-left: 0%;
+        font-size: 175%;
     }
 }
