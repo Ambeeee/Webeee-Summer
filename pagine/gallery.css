@@ -110,12 +110,14 @@ body{
     height: 40px;
     background-color: var(--bluelectric);
     color: var(--coral);
+    text-shadow: -1px 0 var(--water2);
     font-size: 35px;
     border-radius: 20px;
     margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: "Itim";
 }
 

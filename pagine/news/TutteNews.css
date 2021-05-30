@@ -59,6 +59,7 @@ body{
     margin:0 40px;
     font-size:20px;
     color: var(--white);
+    text-shadow: -1px 0 var(--water2);
     font-family: "Itim";
     font-weight: bold;
     cursor: pointer;
@@ -102,24 +103,22 @@ body{
     overflow: hidden;
     transition: all 0.5s ease-in-out;
 }
-#mobileMenu{
-    margin-top: 60%;
-    margin-left: 20%;
-}
+
 .mobileTab{
     width: 130px;
     height: 40px;
     background-color: var(--water);
-    color: white;
+    color: var(--coral);
+    text-shadow: -1px 0 var(--water2);
     font-size: 35px;
     border-radius: 20px;
     margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: "Itim";
 }
-
 .mobileTab:hover{
     transform: scale(1.10);
 }
